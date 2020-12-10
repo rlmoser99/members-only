@@ -1,24 +1,25 @@
-# README
+# Members-Only
+This project is from [The Odin Project](https://www.theodinproject.com/lessons/authentication#project-members-only).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Planning:
+Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
-Things you may want to cover:
+### Users:
+username:string     [ Validations: unique, present ] 
+email:string        [ Validations: unique, present ] 
+password:string     [ Validations: unique, present ] 
+member:boolean     [ Validations: unique, present ] 
+id:integer
+created_at:datetime
+updated_at:datetime
 
-* Ruby version
+Association -> has_many posts
 
-* System dependencies
+### Post:
+body:text           [ Validations: present ] 
+user_id:integer     (foreign id)
+id:integer
+created_at:datetime
+updated_at:datetime
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Association -> has_one user
