@@ -21,6 +21,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+# Use Bulma as CSS framework
+gem 'bulma-rails', '~> 0.9.1'
+# Use Simple Form, recommended by Web-Crunch Twitter Clone
+gem 'simple_form', '~> 5.0', '>= 5.0.3'
 # Use Devise for authentication
 gem 'devise', '~> 4.7', '>= 4.7.3'
 
@@ -42,6 +46,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Use Guard for live reload
+  gem 'guard', '~> 2.16', '>= 2.16.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 group :test do

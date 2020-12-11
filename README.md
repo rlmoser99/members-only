@@ -16,7 +16,7 @@ updated_at:datetime
 Association -> has_many posts
 
 ### Post:
-body:text           [ Validations: present ] 
+content:text        [ Validations: present ] 
 user_id:integer     (foreign id)
 id:integer
 created_at:datetime
