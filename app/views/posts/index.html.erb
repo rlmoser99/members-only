@@ -1,10 +1,5 @@
-<h1>Posts</h1>
-
-<ul>
-  <% @posts.each do |post| %>
-    <li>
-      <%= post.content %>
-      <strong><%= post.user.email %></strong>
-    </li>
-  <% end %>
-</ul>
+<section class="section">
+  <div class="container">
+    <%= render @posts %> 
+  </div>
+</section>
