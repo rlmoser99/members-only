@@ -8,7 +8,7 @@ Inside the clubhouse, members can see who the author of a post is but, outside, 
 username:string     [ Validations: unique, present ] 
 email:string        [ Validations: unique, present ] 
 password:string     [ Validations: unique, present ] 
-member:boolean     [ Validations: unique, present ] 
+member:boolean      [ Validations: unique, present ] 
 id:integer
 created_at:datetime
 updated_at:datetime

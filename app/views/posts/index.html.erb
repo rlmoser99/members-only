@@ -4,6 +4,7 @@
   <% @posts.each do |post| %>
     <li>
       <%= post.content %>
+      <strong><%= post.user.email %></strong>
     </li>
   <% end %>
 </ul>
