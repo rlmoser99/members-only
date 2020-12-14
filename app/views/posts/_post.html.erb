@@ -1,8 +1,10 @@
 <div class="box has-background-light">
-  <p>
-    <%= post.content %>
-  </p>
+  <div class="block">
+    <p>
+      <%= post.content %>
+    </p>
+  </div>
   <% if user_signed_in? %>
-    <p><small><%= post.user.email %></small></p>
+    <p class="has-text-right"><strong><%= post.user.email %></strong></p>
   <% end %>
 </div>
