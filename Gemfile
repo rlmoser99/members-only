@@ -27,6 +27,8 @@ gem 'bulma-rails', '~> 0.9.1'
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
 # Use Devise for authentication
 gem 'devise', '~> 4.7', '>= 4.7.3'
+# Use Faker for users
+gem 'faker', '~> 2.15', '>= 2.15.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
