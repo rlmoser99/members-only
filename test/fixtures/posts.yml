@@ -1,7 +1,9 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-<% 5.times do |n| %> 
-  post_<%= n %>:
-    content: This is test content.
-    user: n+1
-<% end %>
+long_post:
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras massa justo, sagittis consequat ultrices at, viverra ut lacus. Aliquam faucibus mauris ut magna posuere luctus. Nullam at sapien ex. Curabitur at massa fermentum, porttitor tortor ut, efficitur lorem. Sed pharetra risus et magna commodo laoreet. Pellentesque mollis felis eu consequat ultricies. Nullam consectetur, arcu a facilisis rhoncus, odio nulla iaculis est, eget mollis risus enim eget lacus.
+  user: madeline
+
+short_post:
+  content: Pellentesque maximus vitae ex nec porta. Sed ut vulputate lectus. Vivamus sollicitudin mi quis velit ultrices dignissim. Vivamus sit amet laoreet felis.
+  user: madeline
