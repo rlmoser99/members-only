@@ -1,5 +1,5 @@
 # Members-Only
-This project is from [The Odin Project](https://www.theodinproject.com/lessons/authentication#project-members-only).
+This project is from [The Odin Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/authentication).
 
 ## Project Planning:
 Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
